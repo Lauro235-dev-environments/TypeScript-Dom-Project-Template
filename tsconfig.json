@@ -14,7 +14,7 @@
 
     /* Modules */
     "module": "CommonJS",
-    "rootDir": "./",
+    "rootDir": "./src",
     "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {},
@@ -45,5 +45,5 @@
   },
   "lib": ["ES2015"],
   "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["../node_modules"]
 }
