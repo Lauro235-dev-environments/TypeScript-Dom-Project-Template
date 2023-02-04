@@ -1,12 +1,10 @@
 # Readme
 
-Let me quickly introduce you to the project. There's nothing particularly advanced in this repo, so this is mainly aimed for those less confident in setting up their TS environment.
+This is a quick and easy template that allows you to create simple dom projects using TypeScript.
 
-This is a quick and easy template for you to use in order to explore TypeScript in your own environment. I'm using it to explore Object Oriented Programming, but you can, of course use it however you like.
+## Getting Started
 
-## Binaries
-
-At the time of publishing I released this with the latest stable Node version (18.13.0) alongside NPM 9.4.0
+1. npm i
 
 ## Dependencies
 
