@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+
+    /* Projects */
+    "incremental": true,
+    "tsBuildInfoFile": "./.tsbuildinfo",
+    "disableReferencedProjectLoad": true,
+
+    /* Language and Environment */
+    "target": "ES6",
+    // "skipLibCheck": true,
+    "moduleDetection": "auto",
+
+    /* Modules */
+    "module": "CommonJS",
+    "rootDir": "./",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {},
+
+    /* Emit */
+    "sourceMap": true,
+    "outDir": "dist",
+    "removeComments": true,
+    "importHelpers": true,
+    "noEmitOnError": true,
+
+    /* Interop Constraints */
+    "isolatedModules": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "alwaysStrict": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "lib": ["ES2015"],
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
