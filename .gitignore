@@ -4,10 +4,9 @@
 .npm
 *.tsbuildinfo
 # Directories
-dist           # This is the build process will output code.
-node_modules   # The original reason we're here!
-# Env files      # A good safeguard against accidentally publishing
-.env.           #  private information, including security keys
+node_modules/
+dist/           
+.env.
 .env.test
 # Logs
 *.log
